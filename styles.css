@@ -1,0 +1,36 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-img-top{
+    width: 150px;
+    height: 150px;
+  }
+  #cardpokemon{
+    width: 500px;
+    text-align: center;
+    border-radius: 4px;
+    color: #000;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: 'Roboto Mono', 'monospace';
+  }
+  #cardpokemon::before{
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+  }
+  .namesatat{
+    text-align: start !important;
+  }
+  
+    
